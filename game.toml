@@ -7,6 +7,8 @@ id = "SLUS-00582"
 players = 1
 exe = "disc/SLUS_005.82"
 disc = "disc/Nightmare Creatures (USA).cue"
+discs = ["disc/Nightmare Creatures (USA).cue"]
+disc_serials = ["SLUS-00582"]
 load_address = "0x80010000"
 entry_pc = "0x80010850"
 text_size = "0x00006000"
@@ -18,18 +20,18 @@ out_dir = "disc"
 bin_name = "Nightmare Creatures (USA) (Track 01).bin"
 cue_name = "Nightmare Creatures (USA).cue"
 boot_exe = "SLUS_005.82"
-known_sizes = [749309568, 212841888]
+known_sizes = [212841888, 749309568]
 known_md5 = [
-  "c0edab7ae441ef432909882a0c1b90d3",
   "3f068b16cb43bc86c1a4430b28819a85",
+  "c0edab7ae441ef432909882a0c1b90d3",
 ]
 known_sha1 = [
-  "322327f4c6e7f64a6ffc4d401f22c9fec47cc598",
   "67d9fb2ab81a54c1129a5a42ec0991c756a2f125",
+  "322327f4c6e7f64a6ffc4d401f22c9fec47cc598",
 ]
 known_crc32 = [
-  "b4f1d416",
   "fa2ca7b0",
+  "b4f1d416",
 ]
 
 [recompiler]
